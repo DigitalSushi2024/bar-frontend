@@ -1,6 +1,6 @@
 <template>
   <div class="completed-orders">
-    <h1>🍽️ Completed Bar Orders</h1>
+    <h1>🍽️ Afgeronden bestellingen</h1>
 
     <!-- Notificatiebalk -->
     <div v-if="notification.message" class="notification" :class="notification.type">
@@ -9,7 +9,7 @@
 
     <!-- Geen orders beschikbaar -->
     <div v-if="completedOrders.length === 0" class="no-orders">
-      <p>No completed orders available.</p>
+      <p>geen bestellingen beschikbaar.</p>
     </div>
 
     <!-- Grid van completed orders -->

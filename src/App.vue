@@ -2,8 +2,8 @@
   <div>
     <nav>
       <ul>
-        <li><router-link to="/pending">Pending Orders</router-link></li>
-        <li><router-link to="/done">Done Orders</router-link></li>
+        <li><router-link to="/pending">Open bestellingen</router-link></li>
+        <li><router-link to="/done">Afgeronden bestellingen</router-link></li>
       </ul>
     </nav>
     <div class="container">

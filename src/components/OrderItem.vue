@@ -1,6 +1,6 @@
 <template>
   <div class="order-item">
-    <h2>Order #{{ order.orderId }}</h2>
+    <h2>bestelling #{{ order.orderId }}</h2>
     <ul>
       <li
           v-for="item in order.orderItems"
@@ -18,7 +18,7 @@
         @click="markAsCompleted"
         class="complete-button"
     >
-      Mark Order as Done
+      afronden
     </button>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div class="pending-orders">
-    <h1>🍽️ Pending bar Orders</h1>
+    <h1>🍽️ Open bestellingen</h1>
 
     <!-- Notificatiebalk -->
     <div v-if="notification.message" class="notification" :class="notification.type">
@@ -16,7 +16,7 @@
 
     <!-- Geen orders -->
     <div v-if="pendingOrders.length === 0" class="no-orders">
-      <p>No pending orders. 🎉</p>
+      <p>geen bestellingen beschikbaar 🎉</p>
     </div>
 
     <!-- Grid met orders -->

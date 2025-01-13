@@ -1,7 +1,7 @@
 <template>
   <div class="order-list">
     <div v-for="order in orders" :key="order.orderId" class="order-item">
-      <h2>Order #{{ order.orderId }}</h2>
+      <h2>bestelling #{{ order.orderId }}</h2>
       <ul>
         <li v-for="item in order.orderItems" :key="item.productId">
           {{ item.quantity }} x {{ item.productName }}
